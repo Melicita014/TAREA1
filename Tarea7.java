@@ -6,14 +6,14 @@ public class Tarea7 {
 		
 				int contadorpar = 0 , contadorimpar = 0 ;
 	
-				for (int i =0 ;i<tabla.length;i++) {
+				for (int i =0 ;i<tabla.length;i++) {// Va numero por numero por cada tabla y suma al contador de par o imapr segun elr esultado.
 						if (tabla [i] % 2 == 0 ) {
 							contadorpar ++ ;
 						}
 						else
 							contadorimpar++ ;
 				}
-				if (contadorpar < contadorimpar)
+				if (contadorpar < contadorimpar) // Aqui hace la comparacion
 					System.out.println("Hay mas impares");
 				else if (contadorpar > contadorimpar)
 					System.out.println("Hay mas pares");
@@ -22,9 +22,6 @@ public class Tarea7 {
 	
 	}
 }
-
-
-
 
 	/* INTENTO DE CON FUNCIONES AUXILIARES:
 	 *	int tabla[]= {3,6,2,77,3,10,23,14,15,3};
