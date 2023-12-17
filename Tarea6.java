@@ -1,6 +1,7 @@
 //En un array de números de 20 posiciones, inicialmente sin valores,
 //deja en cada posición el valor de la secuencia Fibonacc
 public class Tarea6 {
+// Hacer una funcion para calcular Fibonacci
 public static int Fibonacci(int[] tabla, int i) {
 	  if (i < 2) {
 	    tabla[i] = 1;
