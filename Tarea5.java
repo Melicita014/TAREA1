@@ -1,3 +1,5 @@
+//En un array de números de 10 posiciones, inicialmente sin valores,
+//deja en cada posición el valor de la función factorial.
 public class Tarea5 {
 	static int factorial (int x) {
 		
