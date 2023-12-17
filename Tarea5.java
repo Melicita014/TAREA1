@@ -18,7 +18,7 @@ public class Tarea5 {
 		
 	//Mostrar la tabla en pantalla
 		for (int i = 0; i <= tabla.length -1 ; i++)
-		System.out.println(i + ": " +tabla[i] );
+			System.out.println(i + ": " +tabla[i] );
 		
 	
 		
